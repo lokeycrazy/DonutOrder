@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "donutorder",
+  "version": "${version}",
+  "name": "DonutOrder",
+  "description": "Toggle with O while the Orders chest GUI is open: repeatedly clicks the drop button and the next-page button with a 0.5s delay.",
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.donutorder.DonutOrderClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
