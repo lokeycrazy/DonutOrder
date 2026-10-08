@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "donutsell",
+  "version": "${version}",
+  "name": "DonutSell",
+  "description": "DonutSell by Exhale: auto auction house seller and order flipper with failsafes.",
+  "authors": ["Exhale"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.donutsell.DonutSellClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
